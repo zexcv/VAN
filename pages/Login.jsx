@@ -39,6 +39,9 @@ export default function Login() {
 
     return (
         <div className="login-container">
+            <h3>Dummy account:</h3>
+            <p>Email: b@b.com</p>
+            <p>Password: p123</p>
             {
                 location.state?.message &&
                     <h3 className="login-error">{location.state.message}</h3>
